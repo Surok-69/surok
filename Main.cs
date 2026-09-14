@@ -1,5 +1,6 @@
-//#Surok
-//КИ25-21Б Сурков Никита 2 вариант
+// Surok
+// КИ25-21В Сурков Никита 2 вариант
+
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -86,11 +87,12 @@ namespace OOPIntro
                 StringSplitOptions.RemoveEmptyEntries);
         }
     }
-
     public class Program
     {
         public static void Main()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             Console.WriteLine("=== Программа создания объектов \"Файл\" ===");
             Console.WriteLine();
 
